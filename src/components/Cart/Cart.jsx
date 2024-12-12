@@ -10,7 +10,7 @@ const Cart = ({ cart, removeItemFromCart, confirmOrder }) => {
       <div className="cart empty-cart">
         <h2>Your Cart ({totalQuantity})</h2>
         <img
-          src="/assets/images/illustration-empty-cart.svg"
+          src="./assets/images/illustration-empty-cart.svg"
           alt="Empty Cart"
           className="empty-cart-img"
         />
@@ -55,7 +55,7 @@ const Cart = ({ cart, removeItemFromCart, confirmOrder }) => {
           <strong>${totalPrice.toFixed(2)}</strong>
         </div>
         <p className="carbon-neutral">
-          <img src="/assets/images/icon-carbon-neutral.svg"></img>
+          <img src="./assets/images/icon-carbon-neutral.svg"></img>
           This is a <strong>carbon-neutral</strong> delivery</p>
         <button className="confirm-order-btn" onClick={confirmOrder} >Confirm Order</button>
       </div>
