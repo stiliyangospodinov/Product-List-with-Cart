@@ -35,7 +35,7 @@ const ProductCard = ({ product, addToCart, decreaseQuantity, cart }) => {
             onClick={() => addToCart(product)} 
             className="add-to-cart-btn"
           >
-            <img src="./assets/images/icon-add-to-cart.svg" alt="Add to cart" /> Add to Cart
+            <img src="./assets/images/icon-add-to-cart.svg" alt="" /> Add to Cart
           </button>
         )}
       </div>

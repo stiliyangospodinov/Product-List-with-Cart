@@ -11,7 +11,7 @@ const Cart = ({ cart, removeItemFromCart, confirmOrder }) => {
         <h2>Your Cart ({totalQuantity})</h2>
         <img
           src="./assets/images/illustration-empty-cart.svg"
-          alt="Empty Cart"
+          alt=""
           className="empty-cart-img"
         />
         <p>Your added items will appear here</p>

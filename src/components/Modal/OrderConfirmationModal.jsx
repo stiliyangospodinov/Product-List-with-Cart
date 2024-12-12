@@ -15,7 +15,7 @@ const OrderConfirmationModal = ({ cart, closeModal }) => {
         <ul className="modal-cart-items">
           {cart.map((item) => (
             <li key={item.name} className="modal-cart-item">
-              <img src={item.image.thumbnail} alt={item.name} className="modal-cart-item-img" />
+              <img src={item.image.thumbnail} alt="" className="modal-cart-item-img" />
               <div className="modal-cart-item-details">
                 <p>{item.name}</p>
                 <p><span>{item.quantity}x</span> @ ${item.price.toFixed(2)}</p>
