@@ -1,5 +1,5 @@
 body {
-  font-family: 'Arial', sans-serif;
+  font-family: 'Red Hat Text', Arial, sans-serif;
   background-color: white;
   margin: 0;
   padding: 0;
@@ -52,10 +52,10 @@ body {
   transition: border-color 0.3s ease; 
 }
 
-.product-card h4 {
+.product-card .category {
   font-weight: normal;
   font-size: 0.9rem;
-  margin: 30px 0 5px 0;
+  margin: 25px 0 5px 0;
   color:#5c3b28;
 }
 .product-card h3 {
@@ -82,7 +82,7 @@ body {
   background-color: white;
   color: black;
   border: 1px solid;
-  padding: 10px 32px;
+  padding: 12px 30px;
   margin-top: -20px;
   border-radius: 26px;
   border-color: #c14705 ;
@@ -100,7 +100,7 @@ body {
   background-color: #c14705;
   color: black;
   border: 1px solid;
-  padding: 12px 13px;
+  padding: 14px 13px;
   margin-top: -20px;
   border-radius: 26px;
   border-color: #c14705 ;

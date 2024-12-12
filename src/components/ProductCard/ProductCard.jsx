@@ -39,7 +39,7 @@ const ProductCard = ({ product, addToCart, decreaseQuantity, cart }) => {
           </button>
         )}
       </div>
-      <h4>{product.category}</h4>
+      <p className='category'>{product.category}</p>
       <h3>{product.name}</h3>
       <p>${product.price.toFixed(2)}</p>
     </div>
