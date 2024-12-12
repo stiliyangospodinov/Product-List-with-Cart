@@ -16,7 +16,7 @@ body {
 .app {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0.5rem;
+  padding: 0.3rem;
 }
 
 .main-container {
@@ -55,12 +55,13 @@ body {
 .product-card .category {
   font-weight: normal;
   font-size: 0.9rem;
-  margin: 25px 0 5px 0;
+  margin: 20px 0 5px 0;
   color:#5c3b28;
 }
-.product-card h3 {
+.product-card .name-product {
   font-size: 1.1rem;
   margin: 0.1rem 0;
+  color:black;
 }
 
 .product-card p {

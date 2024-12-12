@@ -40,7 +40,7 @@ const ProductCard = ({ product, addToCart, decreaseQuantity, cart }) => {
         )}
       </div>
       <p className='category'>{product.category}</p>
-      <h3>{product.name}</h3>
+      <p className="name-product">{product.name}</p>
       <p>${product.price.toFixed(2)}</p>
     </div>
   );
