@@ -80,6 +80,5 @@ Contributions are welcome! Please fork the repository and submit a pull request 
 
 ## Acknowledgments
 
-- Thanks to the open-source community for inspiration and guidance.
 - Special thanks to the Frontend Mentor challenge for the idea.
->>>>>>> 02d5c98ec0d9e05367f22868df3818a835169d85
+
