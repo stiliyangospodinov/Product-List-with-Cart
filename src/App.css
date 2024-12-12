@@ -9,7 +9,8 @@ body {
 .app h1 {
   font-weight: bold;
   margin-left: 1rem;
-  margin-top:4rem
+  margin-top:4rem;
+  font-size:36px;
 
 }
 
@@ -155,7 +156,7 @@ body {
 }
 .cart {
   background-color: #fff;
-  margin-top:-3rem;
+  margin-top:-4rem;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
@@ -164,7 +165,7 @@ body {
 .cart h2 {
   margin-bottom: 1rem;
   color:#c14705;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   font-weight: bold;
 }
 
